@@ -1,0 +1,11 @@
+uuid: cc34fc18-9c18-45e5-90eb-029da0bf9d30
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.our_power_stations
+id: node.our_power_stations
+target_entity_type_id: node
+target_bundle: our_power_stations
+default_langcode: site_default
+language_alterable: false

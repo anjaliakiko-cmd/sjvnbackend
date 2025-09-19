@@ -1,0 +1,21 @@
+uuid: 1a127397-bfba-4735-8582-04529d077dfb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_last_date_of_submission
+    - node.type.career
+  module:
+    - datetime
+id: node.career.field_last_date_of_submission
+field_name: field_last_date_of_submission
+entity_type: node
+bundle: career
+label: 'Last Date of Submission'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

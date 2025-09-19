@@ -1,0 +1,24 @@
+uuid: bcf722f0-4665-4b88-af93-30b5ab1f1306
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.our_power_stations
+  module:
+    - views
+  theme:
+    - sjvn
+id: sjvn_views_block__our_power_stations_block_1
+theme: sjvn
+region: our_power_stations
+weight: 0
+provider: null
+plugin: 'views_block:our_power_stations-block_1'
+settings:
+  id: 'views_block:our_power_stations-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

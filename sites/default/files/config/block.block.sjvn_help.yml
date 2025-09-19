@@ -1,0 +1,22 @@
+uuid: c24eb34b-2578-4b7d-bca6-27c490db5c2f
+langcode: hi
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - sjvn
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: sjvn_help
+theme: sjvn
+region: content_above
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

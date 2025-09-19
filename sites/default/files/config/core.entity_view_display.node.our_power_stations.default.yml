@@ -1,0 +1,38 @@
+uuid: f8c0aa56-34c0-4f83-8536-89a17b7511fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.our_power_stations.body
+    - field.field.node.our_power_stations.field_count
+    - node.type.our_power_stations
+  module:
+    - text
+    - user
+id: node.our_power_stations.default
+targetEntityType: node
+bundle: our_power_stations
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_count:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

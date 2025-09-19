@@ -1,0 +1,22 @@
+uuid: d2806c3b-75bf-44ba-8d15-1365cbd8be4c
+langcode: hi
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sjvn
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: sjvn_content
+theme: sjvn
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

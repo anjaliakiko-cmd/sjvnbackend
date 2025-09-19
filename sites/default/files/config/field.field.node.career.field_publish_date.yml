@@ -1,0 +1,21 @@
+uuid: f65bfa04-ef83-4454-88f5-d8a7cc4acc0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publish_date
+    - node.type.career
+  module:
+    - datetime
+id: node.career.field_publish_date
+field_name: field_publish_date
+entity_type: node
+bundle: career
+label: 'Publish Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

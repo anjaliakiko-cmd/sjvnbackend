@@ -1,0 +1,18 @@
+uuid: 6b1795b2-f0fa-4773-9007-d196e22e74b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Our Power Stations'
+type: our_power_stations
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

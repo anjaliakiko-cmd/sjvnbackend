@@ -1,0 +1,24 @@
+uuid: ceb196d4-fc25-4c40-866a-13c475ee2695
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.announcements
+  module:
+    - views
+  theme:
+    - sjvn
+id: sjvn_views_block__announcements_block_3
+theme: sjvn
+region: alerts
+weight: 0
+provider: null
+plugin: 'views_block:announcements-block_3'
+settings:
+  id: 'views_block:announcements-block_3'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

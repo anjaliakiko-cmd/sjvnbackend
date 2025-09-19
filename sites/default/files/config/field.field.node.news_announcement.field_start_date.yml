@@ -1,0 +1,21 @@
+uuid: 1e257c81-4940-4c46-9cfb-963c2c954189
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_start_date
+    - node.type.news_announcement
+  module:
+    - datetime
+id: node.news_announcement.field_start_date
+field_name: field_start_date
+entity_type: node
+bundle: news_announcement
+label: 'Start Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

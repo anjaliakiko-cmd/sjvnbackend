@@ -1,0 +1,24 @@
+uuid: 62039e94-1845-497a-9541-1ded1c7afd6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.quick_access_link
+  module:
+    - text
+id: node.quick_access_link.body
+field_name: body
+entity_type: node
+bundle: quick_access_link
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

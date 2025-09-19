@@ -1,0 +1,24 @@
+uuid: d0b42c9c-34ad-4ff5-a1fa-53de677fb63f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.photo_gallery
+  module:
+    - views
+  theme:
+    - sjvn
+id: sjvn_views_block__photo_gallery_block_1
+theme: sjvn
+region: photo_gallery
+weight: 0
+provider: null
+plugin: 'views_block:photo_gallery-block_1'
+settings:
+  id: 'views_block:photo_gallery-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

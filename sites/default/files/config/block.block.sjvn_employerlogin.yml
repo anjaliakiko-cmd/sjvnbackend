@@ -1,0 +1,25 @@
+uuid: cdd38c6d-466f-40ea-93d8-b564768f6a7d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:040de9c4-fc41-42b2-8ccb-c4293649115f'
+  module:
+    - block_content
+  theme:
+    - sjvn
+id: sjvn_employerlogin
+theme: sjvn
+region: header
+weight: -8
+provider: null
+plugin: 'block_content:040de9c4-fc41-42b2-8ccb-c4293649115f'
+settings:
+  id: 'block_content:040de9c4-fc41-42b2-8ccb-c4293649115f'
+  label: 'Employer login'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

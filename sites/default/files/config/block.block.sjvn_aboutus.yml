@@ -1,0 +1,25 @@
+uuid: 621c74f8-de8f-4ad4-ae9d-e27799ceaea7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cca4fe66-9ccf-4a4a-85c8-197273163cd4'
+  module:
+    - block_content
+  theme:
+    - sjvn
+id: sjvn_aboutus
+theme: sjvn
+region: about_us
+weight: 0
+provider: null
+plugin: 'block_content:cca4fe66-9ccf-4a4a-85c8-197273163cd4'
+settings:
+  id: 'block_content:cca4fe66-9ccf-4a4a-85c8-197273163cd4'
+  label: 'About Us'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

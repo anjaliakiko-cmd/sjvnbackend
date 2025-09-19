@@ -1,0 +1,15 @@
+name: File encrypt
+core_version_requirement: ^8 || ^9 || ^10
+type: module
+description: 'Provides file encryption.'
+dependencies:
+  - encrypt
+  - file
+test_dependencies:
+  - encrypt:encrypt
+  - key:key
+
+# Information added by Drupal.org packaging script on 2023-07-12
+version: '8.x-1.0-alpha3'
+project: 'file_encrypt'
+datestamp: 1689171909

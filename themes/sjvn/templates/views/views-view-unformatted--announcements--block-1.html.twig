@@ -1,0 +1,42 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+
+<!-- Announcements Bar -->
+    <div class="announcement-bar">
+      <!-- Left Section -->
+      <div class="announcement-left">
+        <span class="announcement-title"> ANNOUNCEMENTS 📢</span>
+      </div>
+
+      <!-- Center (Scrolling Track) -->
+      <div class="announcement-track-wrapper">
+        <div class="announcement-track">
+		{% for row in rows %}
+          <span class="announcement-item">{{row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ title }}'] }}</span>
+        {% endfor %}
+        </div>
+      </div>
+
+      <!-- Right Controls -->
+      <div class="announcement-controls">
+        <span class="ann-prev">⟨</span>
+        <span class="ann-pause">⏸</span>
+        <span class="ann-next">⟩</span>
+      </div>
+    </div>
+

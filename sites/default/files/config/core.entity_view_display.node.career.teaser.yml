@@ -1,0 +1,41 @@
+uuid: d678d55b-a2e8-4449-9ae9-56b9ab3e700b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.career.body
+    - field.field.node.career.field_advertisement_no
+    - field.field.node.career.field_apply_online_link
+    - field.field.node.career.field_last_date_of_submission
+    - field.field.node.career.field_month
+    - field.field.node.career.field_publish_date
+    - node.type.career
+  module:
+    - text
+    - user
+id: node.career.teaser
+targetEntityType: node
+bundle: career
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_advertisement_no: true
+  field_apply_online_link: true
+  field_last_date_of_submission: true
+  field_month: true
+  field_publish_date: true
+  langcode: true

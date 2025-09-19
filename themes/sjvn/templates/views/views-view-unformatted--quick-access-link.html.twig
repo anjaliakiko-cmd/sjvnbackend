@@ -1,0 +1,36 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+
+
+<h2 class="quick-action-section-heading">Quick Access Link</h2>
+
+      <div class="quick-links-wrapper">
+        <button class="quick-arrow carousel-button left" aria-label="Previous">&#10094;</button>
+
+        <div class="quick-links-container">
+          {% for row in rows %}
+          <div class="quick-card">
+            {{row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_quick_link_image }}'] }}
+            <h3>{{ row.content['#view'].style_plugin.render_tokens[loop.index0]['{{ title }}'] }}</h3>
+            <p>{{ row.content['#view'].style_plugin.render_tokens[loop.index0]['{{ body }}'] }}</p>
+          </div>
+          {% endfor %}
+        </div>
+
+        <button class="quick-arrow carousel-button right" aria-label="Next">&#10095;</button>
+      </div>

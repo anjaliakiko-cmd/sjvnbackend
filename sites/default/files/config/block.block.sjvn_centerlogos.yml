@@ -1,0 +1,25 @@
+uuid: 6c88629e-58d1-48ac-898c-689d83fa3b51
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fadddccc-c46e-4008-821d-452249bb3ebd'
+  module:
+    - block_content
+  theme:
+    - sjvn
+id: sjvn_centerlogos
+theme: sjvn
+region: center_logos
+weight: 0
+provider: null
+plugin: 'block_content:fadddccc-c46e-4008-821d-452249bb3ebd'
+settings:
+  id: 'block_content:fadddccc-c46e-4008-821d-452249bb3ebd'
+  label: 'Center Logos'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

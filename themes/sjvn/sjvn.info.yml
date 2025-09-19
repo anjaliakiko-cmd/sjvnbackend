@@ -1,0 +1,55 @@
+# This theme is marked as @internal. It is intended to evolve and change over
+# minor releases.
+# As the UI of Drupal improves between minor versions, the markup and assets in
+# the sjvn theme will change. The sjvn theme is not backwards compatible
+# If you wish to modify the output or assets of sjvn you can:
+# 1. Copy the whole of sjvn and rename it as your own theme. You will need to
+# manually manage your own updates if you want to stay up to date with sjvn's
+# bug fixes and feature support.
+#
+# 2. Sub-theme sjvn. This is only recommended if you want to make minor
+# tweaks and understand that sjvn could break your modifications as it
+# changes.
+name: sjvn
+type: theme
+base theme: false
+description: A clean, accessible, and flexible Drupal front-end theme.
+alt text: Screenshot of sjvn, Drupal front-end theme.
+package: Core
+core_version_requirement: ^10
+# version: VERSION
+libraries:
+  - sjvn/global-styling
+  - sjvn/global-scripts
+regions:
+  header: Header
+  logo: Logo
+  center_logos: Center Logos
+  search_section: Search
+  primary_menu: Primary menu
+  secondary_menu: Secondary menu
+  banner_section: Banner section
+  announcements: Announcements
+  news_highlights: News & Highlights
+  alerts: Alerts
+  our_business: Our Business
+  about_us: About Us
+  our_power_stations: Our Power Stations
+  chairmans_corner: Chairman’s Corner
+  hero: Hero (full width)
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: Social Bar
+  content_above: Content Above
+  content: Content
+  sidebar: Sidebar
+  content_below: Content Below
+  quick_access_links: Quick Access Links
+  photo_gallery: Photo Gallery
+  logo_carousel: Logo Carousel
+  footer_top: Footer Top
+  footer_bottom: Footer Bottom
+# Information added by Drupal.org packaging script on 2025-09-04
+version: '10.5.3'
+project: 'drupal'
+datestamp: 1756978279

@@ -1,0 +1,22 @@
+uuid: 2c7f5fe3-6a59-4dcb-8dc6-c93c9a6e1730
+langcode: hi
+status: true
+dependencies:
+  theme:
+    - sjvn
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: sjvn_primary_local_tasks
+theme: sjvn
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

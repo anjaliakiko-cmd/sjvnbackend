@@ -1,0 +1,16 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/gov-theme.css: {}
+      css/layout.css: {}
+      css/responsive.css: {}
+      css/style.css: {}
+      css/theme.css: {}
+
+global-scripts:
+  version: 1.x
+  js:
+    js/accessibility.js: {}
+    js/script.js: {}

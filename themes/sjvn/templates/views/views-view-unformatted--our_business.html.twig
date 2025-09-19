@@ -1,0 +1,44 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+<section class="our-business-section">
+  <h2 class="section-title">Our Business</h2>
+
+  <div class="business-container">
+    <div class="business-grid">
+      {% for row in rows %}
+        {% set term = row.content['#row']._entity %}
+        <div class="business-item" 
+             data-image="{{ file_url(term.field_image.entity.fileuri) }}" 
+             data-link="{{ path('entity.taxonomy_term.canonical', {'taxonomy_term': term.id()}) }}">
+          
+          <i class="bi {{ term.field_icon.value }} business-icon"></i>
+          <span>{{ term.name.value }}</span>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="business-image">
+      {# Default first image shown #}
+      {% if rows|length > 0 %}
+        {% set first_term = rows|first.content['#row']._entity %}
+        <img id="business-display" src="{{ file_url(first_term.field_image.entity.fileuri) }}" alt="{{ first_term.name.value }}">
+      {% endif %}
+    </div>
+  </div>
+</section>
+

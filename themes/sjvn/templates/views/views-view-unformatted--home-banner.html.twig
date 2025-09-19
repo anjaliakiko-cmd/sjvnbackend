@@ -1,0 +1,24 @@
+ <!-- Hero section -->
+    <section class="hero-carousel">
+      <div class="carousel-container">
+		{% for row in rows %}
+        <!-- Slide 1 -->
+		 {% if loop.first %}
+        <div class="carousel-slide active">
+          {{row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_banner_image }}'] }}
+        </div>
+         {% else %}
+        <!-- Example Additional Slides -->
+        <div class="carousel-slide">
+          {{row.content['#view'].style_plugin.render_tokens[ loop.index0 ]['{{ field_banner_image }}'] }}
+        </div>
+        {% endif %}
+		{% endfor %}
+        <!-- Navigation Arrows -->
+        <button class="carousel-prev carousel-button left" aria-label="Previous Slide">❮</button>
+        <button class="carousel-next carousel-button right" aria-label="Next Slide">❯</button>
+
+        <!-- Pagination Dots -->
+        <div class="carousel-dots"></div>
+      </div>
+    </section>

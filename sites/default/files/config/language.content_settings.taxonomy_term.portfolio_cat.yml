@@ -1,0 +1,11 @@
+uuid: c7b21127-fec2-499f-84be-e48e7060f50e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.portfolio_cat
+id: taxonomy_term.portfolio_cat
+target_entity_type_id: taxonomy_term
+target_bundle: portfolio_cat
+default_langcode: site_default
+language_alterable: false

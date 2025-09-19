@@ -1,0 +1,29 @@
+uuid: 95935b6d-ca73-40bb-b429-b4a37860509b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_month
+    - node.type.career
+    - taxonomy.vocabulary.month
+id: node.career.field_month
+field_name: field_month
+entity_type: node
+bundle: career
+label: ' Month'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      month: month
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,11 @@
+uuid: 953e66e9-bf62-4d78-998c-792f8f584c3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.news_announcement
+id: taxonomy_term.news_announcement
+target_entity_type_id: taxonomy_term
+target_bundle: news_announcement
+default_langcode: site_default
+language_alterable: false

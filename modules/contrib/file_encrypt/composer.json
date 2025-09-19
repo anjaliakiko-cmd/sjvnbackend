@@ -1,0 +1,8 @@
+{
+  "name": "drupal/file_encrypt",
+  "description": "Provides file encryption.",
+  "type": "drupal-module",
+  "require": {
+    "drupal/encrypt": "^3.0"
+  }
+}

@@ -1,0 +1,55 @@
+ <!-- Header Include -->
+  <div id="header-placeholder"></div>
+{% include 'themes/sjvn/templates/layout/header.html.twig' %}
+  <main>
+    <!-- Hero section -->
+    <section>
+        {{ page.banner_section }}
+    </section>
+
+    <!-- Announcements Bar -->
+   {{ page.announcements }}
+    <!-- About Us Section -->
+    <section class="about-section">
+      {{ page.about_us }}
+    </section>
+
+    <section class="power-station-section">
+      {{ page.our_power_stations }}
+    </section>
+    <section class="chairman-section">
+      {{ page.chairmans_corner }}
+    </section>
+<!--news-alert-section-->
+    <section class="news-alert-section">
+      <div class="news-alert-container">
+        <div class="news-column">
+          <h3 class="section-heading">News & Highlights</h3>
+          {{ page.news_highlights }}  
+          </div>
+        <div class="alert-column">
+          <h3 class="section-heading">Alert</h3>   
+        {{ page.alerts }}
+        </div>
+      </div>
+    </section>
+    <!--news-alert-section-end-->
+    {{ page.our_business }}
+
+    <section class="quick-links-section">
+      {{ page.quick_access_links }}
+    </section>
+   <section class="photo-gallery-section">  
+    {{ page.photo_gallery }}
+  </section>
+    <section class="logo-carousel">
+      <div class="carousel-track">
+      {{ page.logo_carousel }}
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Include -->
+  <div id="footer-placeholder"></div>
+
+{% include 'themes/sjvn/templates/layout/footer.html.twig' %}

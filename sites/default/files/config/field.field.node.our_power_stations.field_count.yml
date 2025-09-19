@@ -1,0 +1,19 @@
+uuid: 1c553c42-5d2e-4ef8-b91a-1208d18450ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_count
+    - node.type.our_power_stations
+id: node.our_power_stations.field_count
+field_name: field_count
+entity_type: node
+bundle: our_power_stations
+label: Count
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

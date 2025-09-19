@@ -1,0 +1,22 @@
+uuid: 61e8c115-a892-4730-b350-b61161f59b57
+langcode: hi
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sjvn
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: sjvn_messages
+theme: sjvn
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: d7d0eac9-60a7-4a50-9c8f-1f5f1f676e14
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.quick_access_link
+id: node.quick_access_link
+target_entity_type_id: node
+target_bundle: quick_access_link
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,22 @@
+uuid: 40a9469c-e444-4b08-b576-c15a21d50a8a
+langcode: hi
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sjvn
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: sjvn_breadcrumbs
+theme: sjvn
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

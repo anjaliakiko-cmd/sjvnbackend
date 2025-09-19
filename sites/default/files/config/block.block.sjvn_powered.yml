@@ -1,0 +1,22 @@
+uuid: ad3e323c-6e5b-4755-9fc0-6939c4612e01
+langcode: hi
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sjvn
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: sjvn_powered
+theme: sjvn
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

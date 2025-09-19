@@ -1,0 +1,24 @@
+uuid: ecfd3ef5-3ab7-48a1-b746-06060ddd4d04
+langcode: hi
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.storage.comment.comment_body
+  module:
+    - text
+_core:
+  default_config_hash: 62rlTOx3sPVrYhBnSBHZStXwiO02v1UpHSMrhWDsuG8
+id: comment.comment.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: comment
+label: Comment
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

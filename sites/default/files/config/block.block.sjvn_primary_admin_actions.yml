@@ -1,0 +1,20 @@
+uuid: b9474ed0-7b3b-4a04-9992-28823647259d
+langcode: hi
+status: true
+dependencies:
+  theme:
+    - sjvn
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: sjvn_primary_admin_actions
+theme: sjvn
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

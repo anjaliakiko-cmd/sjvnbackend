@@ -1,0 +1,23 @@
+uuid: 598ece68-e21f-4acd-8dfc-20e4e46ba2cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_apply_online_link
+    - node.type.career
+  module:
+    - link
+id: node.career.field_apply_online_link
+field_name: field_apply_online_link
+entity_type: node
+bundle: career
+label: 'Apply Online Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

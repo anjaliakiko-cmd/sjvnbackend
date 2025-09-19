@@ -1,0 +1,71 @@
+uuid: a0825209-66af-4f7f-a090-88057422a771
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.business_cat.field_icon
+    - field.field.taxonomy_term.business_cat.field_image
+    - image.style.thumbnail
+    - taxonomy.vocabulary.business_cat
+  module:
+    - image
+    - path
+    - text
+id: taxonomy_term.business_cat.default
+targetEntityType: taxonomy_term
+bundle: business_cat
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_icon:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 4
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

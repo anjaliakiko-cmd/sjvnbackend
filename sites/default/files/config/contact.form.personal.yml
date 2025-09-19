@@ -1,0 +1,13 @@
+uuid: c495c41b-6805-4f60-af1d-5f35a942a071
+langcode: hi
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Personal contact form'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'आपका संदेश भेज दिया गया'
+redirect: ''

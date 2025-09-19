@@ -1,0 +1,47 @@
+uuid: 4192a61a-9c2e-4b2a-8db9-1028c6a08b4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.photo_gallery.body
+    - field.field.node.photo_gallery.field_gallery_image
+    - field.field.node.photo_gallery.field_thumbnail_image
+    - node.type.photo_gallery
+  module:
+    - colorbox
+    - text
+    - user
+id: node.photo_gallery.default
+targetEntityType: node
+bundle: photo_gallery
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_gallery_image:
+    type: colorbox
+    label: above
+    settings:
+      colorbox_image_style: ''
+      colorbox_gallery: post
+      colorbox_gallery_custom: ''
+      colorbox_caption: auto
+      colorbox_caption_custom: ''
+      colorbox_node_style: ''
+      colorbox_node_style_first: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_thumbnail_image: true
+  langcode: true

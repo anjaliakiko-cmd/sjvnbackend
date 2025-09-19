@@ -1,0 +1,13 @@
+uuid: 63436aee-e985-40ad-9f05-86d4df1a8b4c
+langcode: hi
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: FrZy1tmuXJcOxhXlBoI1Hsnen5TT-9OCC1iolWH84go
+id: media_delete_action
+label: 'Delete media'
+type: media
+plugin: 'entity:delete_action:media'
+configuration: {  }

@@ -1,0 +1,25 @@
+uuid: 422bd1de-b924-468b-adad-8b9b142032ea
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2ba2adee-494d-4a26-afba-a4a92f8ce9b6'
+  module:
+    - block_content
+  theme:
+    - sjvn
+id: sjvn_logo
+theme: sjvn
+region: logo
+weight: 0
+provider: null
+plugin: 'block_content:2ba2adee-494d-4a26-afba-a4a92f8ce9b6'
+settings:
+  id: 'block_content:2ba2adee-494d-4a26-afba-a4a92f8ce9b6'
+  label: logo
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

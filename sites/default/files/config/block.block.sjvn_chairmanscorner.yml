@@ -1,0 +1,25 @@
+uuid: ef33b6f5-bb65-4f93-b664-8bc9bf0f07a4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e1198f03-3b35-408c-9349-a6a209e0f4f6'
+  module:
+    - block_content
+  theme:
+    - sjvn
+id: sjvn_chairmanscorner
+theme: sjvn
+region: chairmans_corner
+weight: 0
+provider: null
+plugin: 'block_content:e1198f03-3b35-408c-9349-a6a209e0f4f6'
+settings:
+  id: 'block_content:e1198f03-3b35-408c-9349-a6a209e0f4f6'
+  label: 'Chairmans Corner'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

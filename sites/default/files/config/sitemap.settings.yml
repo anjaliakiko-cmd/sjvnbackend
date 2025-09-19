@@ -1,0 +1,31 @@
+_core:
+  default_config_hash: GUKBlXIBQ2d0H8Q7M_Rqn1Q93tRxLPfs9cG-VeQC9NI
+page_title: Sitemap
+path: /sitemap
+message:
+  value: ''
+  format: full_html
+plugins:
+  'menu:main':
+    base_plugin: menu
+    enabled: true
+    weight: -50
+    settings:
+      title: 'Main navigation'
+      show_disabled: false
+      menu_depth: 9
+    id: 'menu:main'
+    provider: sitemap
+  'menu:footer':
+    base_plugin: menu
+    enabled: true
+    weight: -49
+    settings:
+      title: Footer
+      show_disabled: false
+      menu_depth: 9
+    id: 'menu:footer'
+    provider: sitemap
+  frontpage:
+    enabled: false
+include_css: true

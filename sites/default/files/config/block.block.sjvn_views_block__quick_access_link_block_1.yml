@@ -1,0 +1,24 @@
+uuid: 26067d97-d2b9-4e9a-b8b9-8fd89173a9c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.quick_access_link
+  module:
+    - views
+  theme:
+    - sjvn
+id: sjvn_views_block__quick_access_link_block_1
+theme: sjvn
+region: quick_access_links
+weight: 0
+provider: null
+plugin: 'views_block:quick_access_link-block_1'
+settings:
+  id: 'views_block:quick_access_link-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

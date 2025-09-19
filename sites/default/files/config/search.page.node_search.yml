@@ -1,0 +1,15 @@
+uuid: 386b4855-162f-466f-8abc-b6b2a7aa5539
+langcode: hi
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 97tvtzGOa8_flb22CzSjgtm_YkiGMHvEBO-6q2K9V_U
+id: node_search
+label: सामग्री
+path: node
+weight: -10
+plugin: node_search
+configuration:
+  rankings: {  }

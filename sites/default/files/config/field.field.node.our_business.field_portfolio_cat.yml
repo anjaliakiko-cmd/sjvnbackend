@@ -1,0 +1,29 @@
+uuid: 15b5cb0f-b078-4ac6-98fb-c1d354d44192
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_portfolio_cat
+    - node.type.our_business
+    - taxonomy.vocabulary.portfolio_cat
+id: node.our_business.field_portfolio_cat
+field_name: field_portfolio_cat
+entity_type: node
+bundle: our_business
+label: 'Portfolio Cat'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      portfolio_cat: portfolio_cat
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

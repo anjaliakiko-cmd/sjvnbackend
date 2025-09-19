@@ -1,0 +1,13 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background: var(--bg-light);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
